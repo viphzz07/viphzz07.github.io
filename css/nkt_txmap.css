@@ -1,0 +1,23 @@
+.card-announcement {
+    background: linear-gradient(to top left, #ffc4f7 0%, #94f3d5 100%) !important;
+    color: white;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+/* ������ͻ����ɫ */
+:root {
+    --naokuoteng-color: #fffc56;
+}
+
+.card-announcement .item-headline span {
+    margin-left: 0 !important;
+}
+
+.card-announcement span {
+    font-weight: bold;
+    font-size: 20px !important;
+    color: var(--naokuoteng-color);
+}
+
+
