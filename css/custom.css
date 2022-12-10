@@ -43,8 +43,10 @@
   display: flex !important;
 }
 /* �����2�Ǵ����������ĵ�2��Ԫ�أ������Ӳ˵���Ԫ�أ����԰��Լ������޸� */
-.menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -38px;
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -90px;
+}.menus_items .menus_item:nth-child(3) .menus_item_child {
+  left: -120px;
 }
 /* ҹ��ģʽ�˵��������� */
 [data-theme="dark"] #nav .site-page,
@@ -257,3 +259,20 @@ div#archive {
         background: #3ecdf1;
         color: #f2f2f2;
     }
+
+
+
+
+
+/*@font-face {*/
+    /* Ϊ���������ȡ����(����) */
+    /*font-family: 'YSHST';*/
+    /* �����ļ���ַ(��Ի��߾���·��������) */
+    /*src: url(D:\Blog\blog-demo\source\font\ZhuZiAWan2.woff2);*/
+    /* ����Ӵ���ʽ(�Ӵֶ���) */
+    /*font-weight: normal;*/
+    /* ����������ʽ(б��/��б��) */
+    /*font-style: normal;*/
+    /* ������ʾ��ʽ */
+    /*font-display: block;
+}*/
