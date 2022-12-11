@@ -264,17 +264,17 @@ div#archive {
 
 
 
-/*@font-face {*/
-    /* Ϊ���������ȡ����(����) */
-    /*font-family: 'YSHST';*/
-    /* �����ļ���ַ(��Ի��߾���·��������) */
-    /*src: url(D:\Blog\blog-demo\source\font\ZhuZiAWan2.woff2);*/
-    /* ����Ӵ���ʽ(�Ӵֶ���) */
-    /*font-weight: normal;*/
-    /* ����������ʽ(б��/��б��) */
-    /*font-style: normal;*/
-    /* ������ʾ��ʽ */
-    /*font-display: block;
+/*@font-face {
+     Ϊ���������ȡ����(����) 
+    font-family: 'yshst';
+     �����ļ���ַ(��Ի��߾���·��������) 
+    src: url(d:\blog\blog-demo\source\font\zhuziawan2.woff2);
+     ����Ӵ���ʽ(�Ӵֶ���) 
+    font-weight: normal;
+     ����������ʽ(б��/��б��) 
+    font-style: normal;
+     ������ʾ��ʽ 
+    font-display: block;
 }*/
 
 
@@ -442,3 +442,31 @@ h6::before {
     animation: gradient 2s ease infinite;
     background-size: 200%;
 }
+
+
+
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 3em;
+    /* ���Զ���ͼ���С */
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ʱ������Фicon */
+svg.icon {
+    /* ���ﶨ��svg.icon�������Butterfly�Դ���note��ǩ��ͻ */
+    width: 1em;
+    height: 1em;
+    /* width��height����ͼ���Ĭ�Ͽ��Ⱥ͸߶�*/
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.icon-zhongbiao::before {
+    color: #f7c768;
+}
+
